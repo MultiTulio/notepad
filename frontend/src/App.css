@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: lightgray;
+}
+
+.wrap {
+  display: flex;
+}
+
+.catData {
+  border-color: black;
+  padding: 14px;
+}
+
+.noteData {
+  border-color: black;
+  padding: 14px;
+}
+
+.NewNotes {
+  background-color: rgb(255, 86, 86);
+  padding: 14px;
+  flex-direction: column;
+  display: flex;
+}
+
+.inputs.noteInputs {
+  background-color: rgb(255, 86, 86);
+  position: relative;
+  align-self:  flex-end;
+}
+
+button {
+  background-color: rgb(134, 134, 134);
+  border-color: black;
+  margin-left: 5px;
+  padding: 14px;
+  float: right;
+}
+
+.inputs {
+  flex-wrap: nowrap;
+  display: flex;
+  margin-right: 10px;
+}
+
+.inputs.noteInputs {
+  margin-right: 0px;
+}
+
+
+.notatka {
+  padding: 10px;
+  width: 242.261px;
+  background-color: rgb(161, 161, 161);
+  margin-bottom: 14px;
+}
+
+.notatkaText {
+  text-align: left;
+  margin-bottom: 8.5px;
+}
+
+.notatkaTime {
+  text-align: right;
+  font-size: 12px;
+}
+
+.notatka.recent {
+  background-color: rgb(255, 208, 0);
+}
+
+.item {
+  background-color: rgb(161, 161, 161);
+  padding: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.item.category.active {
+  background-color: rgb(255, 86, 86);
+  margin-right: 0px;
+}
+
+.item.category {
+  margin-right: 10px;
+}
